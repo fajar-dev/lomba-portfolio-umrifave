@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap');
+
+body{
+  background-color: #f7fafc;
+}
+* {
+  font-family: 'Roboto Mono', monospace;
+}
+.sub{
+  color: #6c757d;
+  font-size: 16px;
+  margin-bottom: -2px !important;
+}
+.judul{
+  font-weight: 700;
+  color: #112340;
+  font-size: 48px;
+}
+a{
+	color: #112340;
+	text-decoration: none;
+}
+a:hover{
+	color: #91b1e9;
+	text-decoration: none;
+}
+.btn {
+  font-weight: bold;
+  background-color: #ffce5d;
+  color: #112340;
+  border-color: #112340;
+}
+.btn:hover{
+  background-color: #fff4e4;
+  color: #112340;
+  border-color: #112340;
+  box-shadow: 0px 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+/*---------navbar------------------*/
+.nav-link {
+  font-size: 18px;
+  font-weight: 600;
+  color: #112340 !important;
+  text-align: center;
+  margin: 10px;
+}
+.navbar-toggler{
+  border: none;
+}
+.icon i {
+  color: #112340 !important;
+  font-size: 35px !important;
+  text-align: center;
+  margin: 0 5px;
+}
+
+@media (min-width: 992px) { 
+  .nav-link{
+    margin: 20px;
+    color: #112340;
+  }
+  .nav-link {
+		margin-right: 30px;
+		font-size: 16px;
+	}
+	.nav-link:hover::after {
+		content: '';
+		display: block;
+		border-bottom: 3px solid #ffce5d;
+		width: 100%;
+		margin: auto;
+		padding-top: 5px;
+		margin-bottom: -8px;
+	}
+ }
+ /*---------Jumbotron------------------*/
+.jumbotron .btn {
+  padding: 15px 45px 15px 45px;
+  border-radius: 10px;
+}
+.jumbotron h1{
+  font-weight: 600;
+}
+
+ /*---------About------------------*/
+.about{
+  margin: 150px 0;
+}
+
+ /*---------Skill------------------*/
+.skil {
+  margin-bottom: 150px;
+}
+
+.skil .card{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid #0a0a23;
+  background-color: #f6f5fb;
+  display: block;
+	position: relative;
+	transition-duration: 0.3s;
+	transition-property: transform;
+}
+.skil .card:hover{
+	transform: translateY(-10px);
+  background-color: #fff4e4 ;
+}
+
+/*---------Project------------------*/
+.project {
+  margin: 150px 0;
+}
+
+.project .card{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 30px;
+  border: 4px solid #0a0a23;
+  display: block;
+	position: relative;
+	transition-duration: 0.3s;
+	transition-property: transform;
+}
+
+.project .card:hover{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-10px);
+}
+.project .card img{
+  border-radius: 30px;
+}
+.project .btn {
+  border-radius: 20px;
+}
+ /*---------kontak------------------*/
+.kontak{
+  margin: 150px 0;
+} 
+.kontak .card{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+  border: 2px solid #0a0a23;
+  padding: 10px;
+}
+.kontak .btn{
+  border-radius: 10px;
+}
+.kontak i{
+  color: #ffce5d;
+}
+@media (min-width: 992px) { 
+  .kontak{
+    margin-top: 50px;
+  }
+  .kontak .card{
+    padding: 50px;
+  }
+}
+
+/*---------footer------------------*/
+footer {
+  background-color: #112340;
+}
